@@ -20,21 +20,36 @@
 
 <body class="font-manrope ">
     <!-- Header -->
-    <header class="container mx-auto my-8 bg-gradient-to-b from-gray-100 to-white">
+    <header>
         <!-- navbar -->
-        <nav>
-            <div class="navbar">
-                <div class="navbar-start">
-                    <div class="dropdown">
-                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
+        <section class="bg-gradient-to-b from-gray-100 to-white">
+            <nav class="mx-0 pt-5 md:mx-8">
+                <div class="navbar">
+                    <div class="navbar-start">
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                    stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                                <li><a class="font-bold">Home</a></li>
+                                <li><a class="text-[#737373]">Services</a></li>
+                                <li><a class="text-[#737373]">Portfolio</a></li>
+                                <li><a class="text-[#737373]">Blogs</a></li>
+                                <li><a class="text-[#737373]">Contact Us</a></li>
+                            </ul>
                         </div>
-                        <ul tabindex="0"
-                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                        <div class="flex justify-center items-center">
+                            <i class="fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full p-2 -rotate-45"></i>
+                            <a class="text-2xl">Optima</a>
+                        </div>
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1">
                             <li><a class="font-bold">Home</a></li>
                             <li><a class="text-[#737373]">Services</a></li>
                             <li><a class="text-[#737373]">Portfolio</a></li>
@@ -42,45 +57,33 @@
                             <li><a class="text-[#737373]">Contact Us</a></li>
                         </ul>
                     </div>
-                    <div class="flex justify-center items-center">
-                        <i class="fa-solid fa-arrow-right bg-[#ABEF5F] rounded-full p-2 -rotate-45"></i>
-                        <a class="text-3xl">OptimaHomes</a>
+                    <div class="navbar-end gap-5">
+                        <i class="fa-solid fa-cart-shopping hidden md:block  bg-white p-3 rounded-full"></i>
+                        <i class=" fa-solid fa-magnifying-glass hidden md:block bg-white p-3 rounded-full"></i>
+                        <button class="bg-[#ABEF5F] py-2 px-3 rounded-full mr-2 sm:">Book Consult<i
+                                class="fa-solid fa-arrow-right text-white bg-black rounded-full  ml-2 p-2 -rotate-45"></i></button>
                     </div>
                 </div>
-                <div class="navbar-center hidden lg:flex">
-                    <ul class="menu menu-horizontal px-1">
-                        <li><a class="font-bold">Home</a></li>
-                        <li><a class="text-[#737373]">Services</a></li>
-                        <li><a class="text-[#737373]">Portfolio</a></li>
-                        <li><a class="text-[#737373]">Blogs</a></li>
-                        <li><a class="text-[#737373]">Contact Us</a></li>
-                    </ul>
+            </nav>
+
+            <!-- main-header section -->
+            <section class="flex flex-col items-center justify-center">
+                <!-- img section -->
+                <div class="">
+                    <img src="assets/banner.png" alt="">
                 </div>
-                <div class="navbar-end gap-5">
-                    <i class="fa-solid fa-cart-shopping hidden md:block  bg-white p-3 rounded-full"></i>
-                    <i class=" fa-solid fa-magnifying-glass hidden md:block bg-white p-3 rounded-full"></i>
-                    <button class="bg-[#ABEF5F] py-2 px-4 rounded-full mr-2 sm:">Book Consult<i
+                <!-- text-section -->
+                <div class="text-center">
+                    <h1 class="text-2xl font-extrabold mb-6 md:text-6xl">A barn house of this design has a striking
+                        appearance</h1>
+                    <p class="mb-8">The barn house captivates with its blend of rustic charm and modern sophistication,
+                        featuring
+                        weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                    </p>
+                    <button class="bg-green-400 p-3 rounded-full  font-bold">View Details<i
                             class="fa-solid fa-arrow-right text-white bg-black rounded-full  ml-2 p-2 -rotate-45"></i></button>
                 </div>
-            </div>
-        </nav>
-
-        <!-- main-header section -->
-        <section class="flex flex-col items-center justify-center">
-            <!-- img section -->
-            <div class="">
-                <img src="assets/banner.png" alt="">
-            </div>
-            <!-- text-section -->
-            <div class="text-center">
-                <h1 class="text-2xl font-extrabold mb-6 md:text-6xl">A barn house of this design has a striking
-                    appearance</h1>
-                <p class="mb-8">The barn house captivates with its blend of rustic charm and modern sophistication,
-                    featuring
-                    weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
-                <button class="bg-green-400 p-3 rounded-full  font-bold">View Details<i
-                        class="fa-solid fa-arrow-right text-white bg-black rounded-full  ml-2 p-2 -rotate-45"></i></button>
-            </div>
+            </section>
         </section>
     </header>
     <!-- Main -->
@@ -95,7 +98,7 @@
                 </div>
                 <!-- text-section -->
                 <div class="text-center md:text-start">
-                    <h1 class="text-4xl font-bold mb-6">We design thoughtful liveable spaces</h1>
+                    <h1 class="text-3xl md:text-4xl font-bold mb-6">We design thoughtful liveable spaces</h1>
                     <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring
                         weathered wood, sleek metal accents.</p>
                 </div>
@@ -284,7 +287,7 @@
                 </ul>
             </div>
             <div>
-                <button class="git  md:bg-[#ABEF5F] text-black font-bold py-2 px-4 rounded-full mr-2 ">Book Consult<i
+                <button class="bg-[#ABEF5F] text-black font-bold py-2 px-4 rounded-full mr-2 ">Book Consult<i
                         class="fa-solid fa-arrow-right text-white bg-black rounded-full  ml-2 p-2 -rotate-45"></i></button>
             </div>
         </aside>

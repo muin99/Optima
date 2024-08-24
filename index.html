@@ -260,223 +260,411 @@
         </section>
         <!-- Unique section -->
         <section class="container mx-auto my-16 space-y-6">
+            <!-- Text section -->
+            <div>
+                <h1 class="text-center text-5xl font-bold uppercase">Houses For Rent</h1>
+                <p class="text-center text-lg text-gray-600 mt-4">
+                    Explore our diverse selection of houses available for rent. Whether you're looking for a cozy condo
+                    in the heart of the city or a spacious home in a quiet neighborhood, we have options to fit every
+                    lifestyle and budget. Discover your next home today!
+                </p>
+            </div>
+
             <div class="flex flex-col md:flex-row gap-5">
+                <!-- Card 1 -->
                 <div class="md:w-1/2 w-full shadow-xl">
-                    <div>
+                    <div class="">
                         <img class="w-full h-64 object-cover"
                             src="https://cdn.pixabay.com/photo/2016/06/24/10/47/house-1477041_1280.jpg"
-                            alt="Condo Exterior">
-                        <div class="flex items-center pl-5 pt-5">
-                            <div class="w-3 h-3 bg-green-700 rounded-full mt-2 mr-1"></div>
-                            <p class="font-bold text-sm text-gray-800 mt-2">Condo</p>
+                            alt="House Exterior">
+                        <div class="flex justify-end -mt-14 mr-4 drop-shadow-md">
+                            <i class="fa-regular fa-heart bg-white p-3 rounded-full border-none drop-shadow-md border-black 
+                                       hover:bg-black hover:text-white 
+                                       transition-transform transition-colors transform hover:scale-110"></i>
+                        </div>
+                        <div class="flex items-center pl-5 pt-5 justify-between">
+                            <div class="flex items-center">
+                                <div class="w-3 h-3 bg-green-700 mt-2 rounded-full mr-1"></div>
+                                <p class="font-bold text-sm text-gray-800 mt-2">Condo</p>
+                            </div>
+                            <div class="rating mr-5">
+                                <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400"
+                                    checked="checked" />
+                                <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                            </div>
                         </div>
                         <div class="px-5 pl-5 pt-2 pb-5">
-                            <h1 class="font-bold text-3xl text-black mt-3">$2,190</h1>
+                            <h1 class="font-bold text-3xl text-black mt-3">$2,450</h1>
                             <div class="flex gap-3 py-2">
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">1 </span>Bed</p>
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">1 </span>Bath</p>
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">808 </span>Sqft</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">2 </span>Bed</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">2 </span>Bath</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">900 </span>Sqft</p>
                             </div>
-                            <p class="text-sm text-gray-500 mt-2">1701 Simond Ave Unit 503</p>
-                            <p class="text-sm text-gray-500 mt-1">Austin, TX 78723</p>
-                            <p class="text-base text-gray-800 mt-3">A modern condo with stunning city views, perfect for
-                                urban living.</p>
+                            <p class="text-sm text-gray-500 mt-2">123 Maple Street Unit 201</p>
+                            <p class="text-sm text-gray-500 mt-1">New York, NY 10001</p>
+                            <p class="text-base text-gray-800 mt-3">A charming condo with modern amenities and great
+                                city views.</p>
+                            <div class="flex justify-end">
+                                <button
+                                    class="text-yellow-500 btn bg-white hover:bg-yellow-500 hover:text-white border-yellow-500">Contact</button>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!-- Card 2 -->
                 <div class="md:w-1/2 w-full shadow-xl">
-                    <div>
+                    <div class="">
                         <img class="w-full h-64 object-cover"
                             src="https://cdn.pixabay.com/photo/2016/08/28/16/43/stilt-house-1626354_1280.jpg"
-                            alt="Condo Exterior">
-                        <div class="flex items-center pl-5 pt-5">
-                            <div class="w-3 h-3 bg-green-700 mt-2 rounded-full mr-1"></div>
-                            <p class="font-bold text-sm text-gray-800 mt-2">Condo</p>
+                            alt="House Exterior">
+                        <div class="flex justify-end -mt-14 mr-4 drop-shadow-md">
+                            <i class="fa-regular fa-heart bg-white p-3 rounded-full border-none drop-shadow-md border-black 
+                                       hover:bg-black hover:text-white
+                                       transition-transform transition-colors transform hover:scale-110"></i>
+                        </div>
+                        <div class="flex items-center pl-5 pt-5 justify-between">
+                            <div class="flex items-center">
+                                <div class="w-3 h-3 bg-green-700 mt-2 rounded-full mr-1"></div>
+                                <p class="font-bold text-sm text-gray-800 mt-2">Townhouse</p>
+                            </div>
+                            <div class="rating mr-5">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400"
+                                    checked="checked" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            </div>
                         </div>
                         <div class="px-5 pl-5 pt-2 pb-5">
-                            <h1 class="font-bold text-3xl text-black mt-3">$2,190</h1>
+                            <h1 class="font-bold text-3xl text-black mt-3">$3,150</h1>
                             <div class="flex gap-3 py-2">
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">1 </span>Bed</p>
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">1 </span>Bath</p>
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">808 </span>Sqft</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">3 </span>Bed</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">2 </span>Bath</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">1,200 </span>Sqft</p>
                             </div>
-                            <p class="text-sm text-gray-500 mt-2">1701 Simond Ave Unit 503</p>
-                            <p class="text-sm text-gray-500 mt-1">Austin, TX 78723</p>
-                            <p class="text-base text-gray-800 mt-3">Bright and airy condo with high ceilings and natural
-                                light.</p>
+                            <p class="text-sm text-gray-500 mt-2">456 Oak Avenue Unit 305</p>
+                            <p class="text-sm text-gray-500 mt-1">San Francisco, CA 94107</p>
+                            <p class="text-base text-gray-800 mt-3">Spacious townhouse with a rooftop terrace and
+                                beautiful views.</p>
+                            <div class="flex justify-end">
+                                <button
+                                    class="text-yellow-500 btn bg-white hover:bg-yellow-500 hover:text-white border-yellow-500">Contact</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="flex flex-col md:flex-row gap-5">
+                <!-- Card 3 -->
                 <div class="md:w-1/3 w-full shadow-xl">
-                    <div>
+                    <div class="">
                         <img class="w-full h-64 object-cover"
                             src="https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg"
-                            alt="Condo Exterior">
-                        <div class="flex items-center pl-5 pt-5">
-                            <div class="w-3 h-3 bg-green-700 mt-2 rounded-full mr-1"></div>
-                            <p class="font-bold text-sm text-gray-800 mt-2">Condo</p>
+                            alt="House Exterior">
+                        <div class="flex justify-end -mt-14 mr-4 drop-shadow-md">
+                            <i class="fa-regular fa-heart bg-white p-3 rounded-full border-none drop-shadow-md border-black 
+                                       hover:bg-black hover:text-white
+                                       transition-transform transition-colors transform hover:scale-110"></i>
+                        </div>
+                        <div class="flex items-center pl-5 pt-5 justify-between">
+                            <div class="flex items-center">
+                                <div class="w-3 h-3 bg-green-700 mt-2 rounded-full mr-1"></div>
+                                <p class="font-bold text-sm text-gray-800 mt-2">Apartment</p>
+                            </div>
+                            <div class="rating mr-5">
+                                <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400"
+                                    checked="checked" />
+                                <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+                            </div>
                         </div>
                         <div class="px-5 pl-5 pt-2 pb-5">
-                            <h1 class="font-bold text-3xl text-black mt-3">$2,190</h1>
+                            <h1 class="font-bold text-3xl text-black mt-3">$1,950</h1>
                             <div class="flex gap-3 py-2">
                                 <p class="text-sm text-gray-600 mt-1"><span class="font-bold">1 </span>Bed</p>
                                 <p class="text-sm text-gray-600 mt-1"><span class="font-bold">1 </span>Bath</p>
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">808 </span>Sqft</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">750 </span>Sqft</p>
                             </div>
-                            <p class="text-sm text-gray-500 mt-2">1701 Simond Ave Unit 503</p>
-                            <p class="text-sm text-gray-500 mt-1">Austin, TX 78723</p>
-                            <p class="text-base text-gray-800 mt-3">Located in a peaceful neighborhood, perfect for
-                                quiet evenings.</p>
+                            <p class="text-sm text-gray-500 mt-2">789 Pine Street Unit 502</p>
+                            <p class="text-sm text-gray-500 mt-1">Seattle, WA 98109</p>
+                            <p class="text-base text-gray-800 mt-3">Modern apartment in a vibrant neighborhood with
+                                excellent amenities.</p>
+                            <div class="flex justify-end">
+                                <button
+                                    class="text-yellow-500 btn bg-white hover:bg-yellow-500 hover:text-white border-yellow-500">Contact</button>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!-- Card 4 -->
                 <div class="md:w-1/3 w-full shadow-xl">
-                    <div>
+                    <div class="">
                         <img class="w-full h-64 object-cover"
                             src="https://cdn.pixabay.com/photo/2017/04/10/22/28/residence-2219972_1280.jpg"
-                            alt="Condo Exterior">
-                        <div class="flex items-center pl-5 pt-5">
-                            <div class="w-3 h-3 bg-green-700 mt-2 rounded-full mr-1"></div>
-                            <p class="font-bold text-sm text-gray-800 mt-2">Condo</p>
+                            alt="House Exterior">
+                        <div class="flex justify-end -mt-14 mr-4 drop-shadow-md">
+                            <i class="fa-regular fa-heart bg-white p-3 rounded-full border-none drop-shadow-md border-black 
+                                       hover:bg-black hover:text-white
+                                       transition-transform transition-colors transform hover:scale-110"></i>
+                        </div>
+                        <div class="flex items-center pl-5 pt-5 justify-between">
+                            <div class="flex items-center">
+                                <div class="w-3 h-3 bg-green-700 mt-2 rounded-full mr-1"></div>
+                                <p class="font-bold text-sm text-gray-800 mt-2">Villa</p>
+                            </div>
+                            <div class="rating mr-5">
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400"
+                                    checked="checked" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-4" class="mask mask-star-2 bg-orange-400" />
+                            </div>
                         </div>
                         <div class="px-5 pl-5 pt-2 pb-5">
-                            <h1 class="font-bold text-3xl text-black mt-3">$2,190</h1>
+                            <h1 class="font-bold text-3xl text-black mt-3">$4,200</h1>
                             <div class="flex gap-3 py-2">
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">1 </span>Bed</p>
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">1 </span>Bath</p>
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">808 </span>Sqft</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">4 </span>Bed</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">3 </span>Bath</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">2,000 </span>Sqft</p>
                             </div>
-                            <p class="text-sm text-gray-500 mt-2">1701 Simond Ave Unit 503</p>
-                            <p class="text-sm text-gray-500 mt-1">Austin, TX 78723</p>
-                            <p class="text-base text-gray-800 mt-3">Ideal for professionals, with easy access to
-                                downtown Austin.</p>
+                            <p class="text-sm text-gray-500 mt-2">101 Birch Lane Unit 710</p>
+                            <p class="text-sm text-gray-500 mt-1">Miami, FL 33130</p>
+                            <p class="text-base text-gray-800 mt-3">Luxurious villa with a private pool and spacious
+                                living areas.</p>
+                            <div class="flex justify-end">
+                                <button
+                                    class="text-yellow-500 btn bg-white hover:bg-yellow-500 hover:text-white border-yellow-500">Contact</button>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <!-- Card 5 -->
                 <div class="md:w-1/3 w-full shadow-xl">
-                    <div>
+                    <div class="">
                         <img class="w-full h-64 object-cover"
-                            src="https://cdn.pixabay.com/photo/2016/11/18/17/46/house-1836070_1280.jpg"
-                            alt="Condo Exterior">
-                        <div class="flex items-center pl-5 pt-5">
-                            <div class="w-3 h-3 bg-green-700 mt-2 rounded-full mr-1"></div>
-                            <p class="font-bold text-sm text-gray-800 mt-2">Condo</p>
+                            src="https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="House Exterior">
+                        <div class="flex justify-end -mt-14 mr-4 drop-shadow-md">
+                            <i class="fa-regular fa-heart bg-white p-3 rounded-full border-none drop-shadow-md border-black 
+                                       hover:bg-black hover:text-white
+                                       transition-transform transition-colors transform hover:scale-110"></i>
+                        </div>
+                        <div class="flex items-center pl-5 pt-5 justify-between">
+                            <div class="flex items-center">
+                                <div class="w-3 h-3 bg-green-700 mt-2 rounded-full mr-1"></div>
+                                <p class="font-bold text-sm text-gray-800 mt-2">Loft</p>
+                            </div>
+                            <div class="rating mr-5">
+                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400"
+                                    checked="checked" />
+                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                            </div>
                         </div>
                         <div class="px-5 pl-5 pt-2 pb-5">
-                            <h1 class="font-bold text-3xl text-black mt-3">$2,190</h1>
+                            <h1 class="font-bold text-3xl text-black mt-3">$2,750</h1>
                             <div class="flex gap-3 py-2">
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">1 </span>Bed</p>
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">1 </span>Bath</p>
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">808 </span>Sqft</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">2 </span>Bed</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">2 </span>Bath</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">1,000 </span>Sqft</p>
                             </div>
-                            <p class="text-sm text-gray-500 mt-2">1701 Simond Ave Unit 503</p>
-                            <p class="text-sm text-gray-500 mt-1">Austin, TX 78723</p>
-                            <p class="text-base text-gray-800 mt-3">Spacious layout with modern finishes throughout.</p>
+                            <p class="text-sm text-gray-500 mt-2">202 Cedar Road Unit 105</p>
+                            <p class="text-sm text-gray-500 mt-1">Austin, TX 73301</p>
+                            <p class="text-base text-gray-800 mt-3">Stylish loft with open space and modern finishes in
+                                a trendy area.</p>
+                            <div class="flex justify-end">
+                                <button
+                                    class="text-yellow-500 btn bg-white hover:bg-yellow-500 hover:text-white border-yellow-500">Contact</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="flex gap-4 flex-col md:flex-row">
-                <div class="md:w-1/4 w-full shadow-xl">
-                    <div>
+            <div class="flex flex-col md:flex-row gap-5">
+                <!-- Card 6 -->
+                <div class="md:w-1/3 w-full shadow-xl">
+                    <div class="">
                         <img class="w-full h-64 object-cover"
-                            src="https://cdn.pixabay.com/photo/2014/11/21/17/17/house-540796_1280.jpg"
-                            alt="Condo Exterior">
-                        <div class="flex items-center pl-5 pt-5">
-                            <div class="w-3 h-3 bg-green-700 mt-2 rounded-full mr-1"></div>
-                            <p class="font-bold text-sm text-gray-800 mt-2">Condo</p>
+                            src="https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="House Exterior">
+                        <div class="flex justify-end -mt-14 mr-4 drop-shadow-md">
+                            <i class="fa-regular fa-heart bg-white p-3 rounded-full border-none drop-shadow-md border-black 
+                                       hover:bg-black hover:text-white
+                                       transition-transform transition-colors transform hover:scale-110"></i>
+                        </div>
+                        <div class="flex items-center pl-5 pt-5 justify-between">
+                            <div class="flex items-center">
+                                <div class="w-3 h-3 bg-green-700 mt-2 rounded-full mr-1"></div>
+                                <p class="font-bold text-sm text-gray-800 mt-2">Ranch</p>
+                            </div>
+                            <div class="rating mr-5">
+                                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400"
+                                    checked="checked" />
+                                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                            </div>
                         </div>
                         <div class="px-5 pl-5 pt-2 pb-5">
-                            <h1 class="font-bold text-3xl text-black mt-3">$2,190</h1>
+                            <h1 class="font-bold text-3xl text-black mt-3">$3,000</h1>
                             <div class="flex gap-3 py-2">
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">1 </span>Bed</p>
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">1 </span>Bath</p>
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">808 </span>Sqft</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">3 </span>Bed</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">2 </span>Bath</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">1,500 </span>Sqft</p>
                             </div>
-                            <p class="text-sm text-gray-500 mt-2">1701 Simond Ave Unit 503</p>
-                            <p class="text-sm text-gray-500 mt-1">Austin, TX 78723</p>
-                            <p class="text-base text-gray-800 mt-3">Charming condo with vintage architectural details.
-                            </p>
+                            <p class="text-sm text-gray-500 mt-2">303 Elm Street Unit 602</p>
+                            <p class="text-sm text-gray-500 mt-1">Denver, CO 80202</p>
+                            <p class="text-base text-gray-800 mt-3">Comfortable ranch-style home with spacious interiors
+                                and a large backyard.</p>
+                            <div class="flex justify-end">
+                                <button
+                                    class="text-yellow-500 btn bg-white hover:bg-yellow-500 hover:text-white border-yellow-500">Contact</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="md:w-1/4 w-full shadow-xl">
-                    <div>
+                <!-- Card 7 -->
+                <div class="md:w-1/3 w-full shadow-xl">
+                    <div class="">
                         <img class="w-full h-64 object-cover"
-                            src="https://cdn.pixabay.com/photo/2017/03/30/04/14/house-2187170_1280.jpg"
-                            alt="Condo Exterior">
-                        <div class="flex items-center pl-5 pt-5">
-                            <div class="w-3 h-3 bg-green-700 mt-2 rounded-full mr-1"></div>
-                            <p class="font-bold text-sm text-gray-800 mt-2">Condo</p>
+                            src="https://cdn.pixabay.com/photo/2016/06/24/11/40/architecture-1477094_960_720.jpg"
+                            alt="House Exterior">
+                        <div class="flex justify-end -mt-14 mr-4 drop-shadow-md">
+                            <i class="fa-regular fa-heart bg-white p-3 rounded-full border-none drop-shadow-md border-black 
+                                       hover:bg-black hover:text-white
+                                       transition-transform transition-colors transform hover:scale-110"></i>
+                        </div>
+                        <div class="flex items-center pl-5 pt-5 justify-between">
+                            <div class="flex items-center">
+                                <div class="w-3 h-3 bg-green-700 mt-2 rounded-full mr-1"></div>
+                                <p class="font-bold text-sm text-gray-800 mt-2">Cottage</p>
+                            </div>
+                            <div class="rating mr-5">
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400"
+                                    checked="checked" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-7" class="mask mask-star-2 bg-orange-400" />
+                            </div>
                         </div>
                         <div class="px-5 pl-5 pt-2 pb-5">
-                            <h1 class="font-bold text-3xl text-black mt-3">$2,190</h1>
+                            <h1 class="font-bold text-3xl text-black mt-3">$2,100</h1>
                             <div class="flex gap-3 py-2">
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">1 </span>Bed</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">2 </span>Bed</p>
                                 <p class="text-sm text-gray-600 mt-1"><span class="font-bold">1 </span>Bath</p>
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">808 </span>Sqft</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">850 </span>Sqft</p>
                             </div>
-                            <p class="text-sm text-gray-500 mt-2">1701 Simond Ave Unit 503</p>
-                            <p class="text-sm text-gray-500 mt-1">Austin, TX 78723</p>
-                            <p class="text-base text-gray-800 mt-3">Newly renovated, featuring a contemporary kitchen
-                                and bath.</p>
+                            <p class="text-sm text-gray-500 mt-2">404 Willow Street Unit 209</p>
+                            <p class="text-sm text-gray-500 mt-1">Boston, MA 02108</p>
+                            <p class="text-base text-gray-800 mt-3">Cozy cottage with a beautiful garden and serene
+                                surroundings.</p>
+                            <div class="flex justify-end">
+                                <button
+                                    class="text-yellow-500 btn bg-white hover:bg-yellow-500 hover:text-white border-yellow-500">Contact</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="md:w-1/4 w-full shadow-xl">
-                    <div>
+                <!-- Card 8 -->
+                <div class="md:w-1/3 w-full shadow-xl">
+                    <div class="">
                         <img class="w-full h-64 object-cover"
-                            src="https://cdn.pixabay.com/photo/2016/11/29/03/53/house-1867187_1280.jpg"
-                            alt="Condo Exterior">
-                        <div class="flex items-center pl-5 pt-5">
-                            <div class="w-3 h-3 bg-green-700 mt-2 rounded-full mr-1"></div>
-                            <p class="font-bold text-sm text-gray-800 mt-2">Condo</p>
+                            src="https://cdn.pixabay.com/photo/2024/08/10/16/59/ai-generated-8959799_1280.jpg"
+                            alt="House Exterior">
+                        <div class="flex justify-end -mt-14 mr-4 drop-shadow-md">
+                            <i class="fa-regular fa-heart bg-white p-3 rounded-full border-none drop-shadow-md border-black 
+                                       hover:bg-black hover:text-white
+                                       transition-transform transition-colors transform hover:scale-110"></i>
+                        </div>
+                        <div class="flex items-center pl-5 pt-5 justify-between">
+                            <div class="flex items-center">
+                                <div class="w-3 h-3 bg-green-700 mt-2 rounded-full mr-1"></div>
+                                <p class="font-bold text-sm text-gray-800 mt-2">Mansion</p>
+                            </div>
+                            <div class="rating mr-5">
+                                <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400"
+                                    checked="checked" />
+                                <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-8" class="mask mask-star-2 bg-orange-400" />
+                            </div>
                         </div>
                         <div class="px-5 pl-5 pt-2 pb-5">
-                            <h1 class="font-bold text-3xl text-black mt-3">$2,190</h1>
+                            <h1 class="font-bold text-3xl text-black mt-3">$5,500</h1>
                             <div class="flex gap-3 py-2">
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">1 </span>Bed</p>
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">1 </span>Bath</p>
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">808 </span>Sqft</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">5 </span>Bed</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">4 </span>Bath</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">3,500 </span>Sqft</p>
                             </div>
-                            <p class="text-sm text-gray-500 mt-2">1701 Simond Ave Unit 503</p>
-                            <p class="text-sm text-gray-500 mt-1">Austin, TX 78723</p>
-                            <p class="text-base text-gray-800 mt-3">Beautifully maintained with a private balcony.</p>
+                            <p class="text-sm text-gray-500 mt-2">505 Maple Road Unit 808</p>
+                            <p class="text-sm text-gray-500 mt-1">Los Angeles, CA 90001</p>
+                            <p class="text-base text-gray-800 mt-3">Grand mansion with luxurious amenities and a
+                                stunning view.</p>
+                            <div class="flex justify-end">
+                                <button
+                                    class="text-yellow-500 btn bg-white hover:bg-yellow-500 hover:text-white border-yellow-500">Contact</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="md:w-1/4 w-full shadow-xl">
-                    <div>
+                <!-- Card 9 -->
+                <div class="md:w-1/3 w-full shadow-xl">
+                    <div class="">
                         <img class="w-full h-64 object-cover"
-                            src="https://cdn.pixabay.com/photo/2016/06/24/11/46/architecture-1477099_960_720.jpg"
-                            alt="Condo Exterior">
-                        <div class="flex items-center pl-5 pt-5">
-                            <div class="w-3 h-3 bg-green-700 mt-2 rounded-full mr-1"></div>
-                            <p class="font-bold text-sm text-gray-800 mt-2">Condo</p>
+                            src="https://images.pexels.com/photos/210617/pexels-photo-210617.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="House Exterior">
+                        <div class="flex justify-end -mt-14 mr-4 drop-shadow-md">
+                            <i class="fa-regular fa-heart bg-white p-3 rounded-full border-none drop-shadow-md border-black 
+                                       hover:bg-black hover:text-white
+                                       transition-transform transition-colors transform hover:scale-110"></i>
+                        </div>
+                        <div class="flex items-center pl-5 pt-5 justify-between">
+                            <div class="flex items-center">
+                                <div class="w-3 h-3 bg-green-700 mt-2 rounded-full mr-1"></div>
+                                <p class="font-bold text-sm text-gray-800 mt-2">Cabin</p>
+                            </div>
+                            <div class="rating mr-5">
+                                <input type="radio" name="rating-9" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-9" class="mask mask-star-2 bg-orange-400"
+                                    checked="checked" />
+                                <input type="radio" name="rating-9" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-9" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-9" class="mask mask-star-2 bg-orange-400" />
+                            </div>
                         </div>
                         <div class="px-5 pl-5 pt-2 pb-5">
-                            <h1 class="font-bold text-3xl text-black mt-3">$2,190</h1>
+                            <h1 class="font-bold text-3xl text-black mt-3">$2,300</h1>
                             <div class="flex gap-3 py-2">
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">1 </span>Bed</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">2 </span>Bed</p>
                                 <p class="text-sm text-gray-600 mt-1"><span class="font-bold">1 </span>Bath</p>
-                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">808 </span>Sqft</p>
+                                <p class="text-sm text-gray-600 mt-1"><span class="font-bold">900 </span>Sqft</p>
                             </div>
-                            <p class="text-sm text-gray-500 mt-2">1701 Simond Ave Unit 503</p>
-                            <p class="text-sm text-gray-500 mt-1">Austin, TX 78723</p>
-                            <p class="text-base text-gray-800 mt-3">Luxurious condo with top-tier amenities and a great
+                            <p class="text-sm text-gray-500 mt-2">606 Pine Lane Unit 303</p>
+                            <p class="text-sm text-gray-500 mt-1">Chicago, IL 60614</p>
+                            <p class="text-base text-gray-800 mt-3">Rustic cabin with cozy interiors and a peaceful
                                 location.</p>
+                            <div class="flex justify-end">
+                                <button
+                                    class="text-yellow-500 btn bg-white hover:bg-yellow-500 hover:text-white border-yellow-500">Contact</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-
-
 
 
     </main>

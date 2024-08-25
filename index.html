@@ -22,8 +22,8 @@
     <!-- Header -->
     <header>
         <!-- navbar -->
-        <section class="bg-gradient-to-b from-gray-100 to-white">
-            <nav class="mx-0 pt-5 md:mx-8">
+        <section class="bg-gradient-to-b from-gray-100 to-white ">
+            <nav class="mx-0 pt-5 px-5 md:px-24 ">
                 <div class="navbar">
                     <div class="navbar-start">
                         <div class="dropdown">
@@ -67,7 +67,7 @@
             </nav>
 
             <!-- main-header section -->
-            <section class="flex flex-col items-center justify-center">
+            <section class="flex flex-col items-center justify-center px-5 md:px-24">
                 <!-- img section -->
                 <div class="">
                     <img src="assets/banner.png" alt="">
@@ -80,8 +80,10 @@
                         featuring
                         weathered wood, sleek metal accents, and large windows that flood the space with natural light.
                     </p>
-                    <button class="bg-green-400 p-3 rounded-full  font-bold">View Details<i
-                            class="fa-solid fa-arrow-right text-white bg-black rounded-full  ml-2 p-2 -rotate-45"></i></button>
+                    <div class="pb-20">
+                        <button class="bg-green-400 p-3 rounded-full  font-bold">View Details<i
+                                class="fa-solid fa-arrow-right text-white bg-black rounded-full  ml-2 p-2 -rotate-45"></i></button>
+                    </div>
                 </div>
             </section>
         </section>
@@ -89,8 +91,8 @@
     <!-- Main -->
     <main class="bg-gray-50">
         <!-- design section -->
-        <img class="hidden sm:block md:ml-3" src="assets/Vector.png" alt="">
-        <section class="container mx-auto md:flex p-5">
+        <img class="hidden sm:block md:ml-20" src="assets/Vector.png" alt="">
+        <section class="container mx-auto md:flex p-5 px-5 md:px-24">
             <div class="md:w-2/4 mr-9">
                 <div class="flex justify-center md:justify-normal">
                     <button class="bg-white rounded-full border-none py-2 px-4 my-4"><i
@@ -131,7 +133,7 @@
             </div>
         </section>
         <!-- work process section -->
-        <section class="container mx-auto my-16">
+        <section class="container mx-auto my-16 px-5 md:px-24">
             <div class="text-center">
                 <button class="bg-white rounded-full border-none py-2 px-4 my-4"><i
                         class="fa-solid fa-arrow-right m-1"></i>How we works</button>
@@ -167,13 +169,12 @@
             </div>
         </section>
         <!-- latest Portfolio section -->
-        <section class="bg-white">
+        <section class="bg-white px-5 md:px-24 ">
             <!-- text section -->
-
             <div class="text-center mx-6">
                 <button class="bg-gray-50 rounded-full border-none py-2 px-4 my-4"><i
                         class="fa-solid fa-arrow-right m-1"></i>How we works</button>
-                <h1 class="font-bold text-4xl mt-4 mb-6">Our Latest Portfolio</h1>
+                <h1 class="font-bold text-2xl md:text-4xl mt-4 mb-6">Our Latest Portfolio</h1>
                 <p class="text-black">The barn house captivates with its blend of rustic charm and modern
                     sophistication, featuring
                     weathered wood, sleek metal accents.</p>
@@ -181,16 +182,17 @@
             <!-- img section -->
             <div class="m-8">
                 <div class="flex flex-col space-y-6 md:flex-row md:space-y-0 ">
-                    <div class="border-2 border-gray-100 rounded-2xl md:w-3/4 ">
-                        <div class="flex flex-col md:flex-row  items-center justify-center p-6">
-                            <img class="pr-6" src="assets/img1.png" alt="">
+                    <div class="border-2 border-gray-100 rounded-2xl w-8/12 ">
+                        <div class="flex flex-col md:flex-row  justify-center p-6">
+                            <div class="w-full rounded-2xl mr-6 bg-cover bg-no-repeat bg-center"
+                                style="background-image: url(assets/img1.png);">
+
+                            </div>
                             <div>
-                                <h4 class="text-2xl font-extrabold pt-6">Commercial</h4>
-                                <p class="py-6 text-[#737373]">The barn house captivates with its blend of rustic
-                                    charm
-                                    and modern. The
-                                    barn house
-                                    captivates with its blend of rustic charm and modern .</p>
+                                <h4 class="text-xl font-extrabold">Commercial</h4>
+                                <p class="py-3 text-base text-[#737373]">The barn house captivates with its blend of
+                                    rusti charm and modern.The barn house captivates with its blend of rustic charm and
+                                    modern .</p>
                                 <h3 class="font-extrabold">View Details<i
                                         class="fa-solid fa-arrow-right bg-green-500 rounded-full p-2 mx-3 -rotate-45"></i>
                                 </h3>
@@ -198,44 +200,51 @@
                         </div>
                     </div>
                     <div
-                        class="flex flex-col md:flex-row items-center justify-center border-2 border-gray-100 rounded-2xl p-6 md:ml-6">
-                        <img src="assets/img2.png" alt="">
+                        class="flex w-4/12 flex-col md:flex-row items-center justify-center border-2 border-gray-100 rounded-2xl p-6 md:ml-6">
+                        <div class="w-full h-full rounded-2xl bg-cover bg-no-repeat bg-center"
+                            style="background-image: url(assets/img2.png);"></div>
                     </div>
                 </div>
-                <div class="flex flex-col space-y-6 md:flex-row mt-6 md:space-y-0">
-                    <div class="flex items-center justify-center border-2 border-gray-100 p-6 rounded-2xl md:mr-6">
-                        <img src="assets/img3.png" alt="">
+                <div class="flex pb-24 flex-col space-y-6 md:flex-row mt-6 md:space-y-0">
+                    <div
+                        class="flex w-3/12 items-center justify-center border-2 border-gray-100 p-6 rounded-2xl md:mr-6">
+                        <div class="w-full h-full rounded-2xl bg-cover bg-center bg-no-repeat"
+                            style="background-image: url(assets/img3.png);"></div>
                     </div>
 
-                    <div class=" md:w-3/4 border-2 border-gray-100 rounded-2xl ">
-                        <div class="flex flex-col md:flex-row items-center justify-center p-6">
-                            <img class="pr-6" src="assets/img4.png" alt="">
+                    <div class="border-2 border-gray-100 rounded-2xl md:w-6/12 ">
+                        <div class="flex flex-col md:flex-row  justify-center p-6">
+                            <div class="w-full rounded-2xl mr-6 bg-cover bg-no-repeat bg-center"
+                                style="background-image: url(assets/img4.png);">
+
+                            </div>
                             <div>
-                                <h4 class="text-2xl font-extrabold pt-6">Commercial</h4>
-                                <p class="py-6 text-[#737373]">The barn house captivates with its blend of rustic
-                                    charm
-                                    and modern. The
-                                    barn house
-                                    captivates with its blend of rustic charm and modern .</p>
+                                <h4 class="text-xl font-extrabold">Commercial</h4>
+                                <p class="py-3 text-base text-[#737373]">The barn house captivates with its blend of
+                                    rustic charm and modern. </p>
                                 <h3 class="font-extrabold">View Details<i
                                         class="fa-solid fa-arrow-right bg-green-500 rounded-full p-2 mx-3 -rotate-45"></i>
                                 </h3>
                             </div>
                         </div>
                     </div>
-                    <div class="flex justify-center items-center border-2 border-gray-100 rounded-2xl md:ml-6">
-                        <img class="p-6 " src="assets/img5.png" alt="">
+                    <div class="ml-6 border-2 border-gray-100 rounded-2xl md:w-3/12">
+                        <div class="w-full h-full flex flex-col md:flex-row  justify-center p-6">
+                            <div class=" rounded-2xl w-full h-full bg-cover bg-no-repeat bg-center"
+                                style="background-image: url(assets/img5.png);"></div>
+                        </div>
                     </div>
 
                 </div>
             </div>
 
+
         </section>
 
         <!-- project section -->
-        <section class=" bg-gray-50 my-16 bg-no-repeat bg-cover" style="background-image: url(assets/bg.jpg);">
+        <section class="   bg-cover" style="background-image: url(assets/bg.jpg);">
             <div class="container mx-auto">
-                <div class="text-center my-8">
+                <div class="text-center mb-8">
                     <button class="bg-green-400 mt-24 py-2 px-4 rounded-full font-bold"><i
                             class="fa-solid fa-arrow-right text-black rounded-full  ml-2 p-2"></i>Let's Connect</button>
                     <div>
@@ -246,14 +255,14 @@
                     </div>
                 </div>
                 <!-- discuss section -->
-                <div class="grid grid-cols-2 gap-6">
+                <div class="grid grid-cols-2 gap-6 w-8/12 mx-auto">
                     <input type="text" placeholder="First Name*" class="input  rounded-full " />
                     <input type="text" placeholder="Last Name*" class="input  rounded-full " />
                     <input type="number" placeholder="Phone Number*" class="input  rounded-full " />
                     <input type="email" placeholder="Email Number*" class="input  rounded-full " />
-                    <textarea class="textarea textarea-bordered col-span-2 "
+                    <textarea class="textarea h-60 rounded-3xl textarea-bordered col-span-2 "
                         placeholder="Write your message here"></textarea>
-                    <button class="bg-[#ABEF5F] py-3 rounded-3xl font-bold col-span-2 mb-16">Send Mail<i
+                    <button class="bg-[#ABEF5F] py-3 rounded-full font-bold col-span-2 mb-16">Send Mail<i
                             class="fa-solid fa-arrow-right text-white bg-black rounded-full  ml-2 p-1 -rotate-45"></i></button>
                 </div>
             </div>
@@ -682,8 +691,8 @@
             </p>
             <div class="navbar-center my-8 text-center md:my-12 ">
                 <ul class="menu menu-horizontal  px-1 flex flex-col md:flex-row lg:gap-16">
-                    <li><a class="font-medium hover:text-gray-400">Home</a></li>
-                    <li><a class="hover:text-gray-400">Services</a></li>
+                    <li><a class="text-center font-medium hover:text-gray-400">Home</a></li>
+                    <li><a class="text-center hover:text-gray-400">Services</a></li>
                     <li><a class="hover:text-gray-400">Portfolio</a></li>
                     <li><a class="hover:text-gray-400">Blogs</a></li>
                     <li><a class="hover:text-gray-400">Contact Us</a></li>
@@ -697,4 +706,4 @@
     </footer>
 </body>
 
-</html>'
+</html>
